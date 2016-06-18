@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Safe</string>
+
+    <string name="corrupt_data_msg">Input data seems to be corrupt.</string>
+    <string name="demo_msg">This is a very secret message ಠᴗಠ</string>
+    <string name="key_alias_not_found">You have not created a key yet.</string>
+    <string name="key_invalidated_msg">You have removed the screen lock and the key got permanently invalidated.\nGo to \'Settings -> Security -> Screenlock\' to set up a lock screen</string>
+    <string name="setup_lockscreen_msg">Secure lock screen hasn\'t set up.\nGo to \'Settings -> Security -> Screenlock\' to set up a lock screen</string>
+
+    <string name="card_create_key_title">1. Create a key</string>
+    <string name="card_create_key_description">Create a symmetric key which is stored inside the KeyStore and which will be used for encryption / decryption.</string>
+    <string name="card_create_key_opt_no_auth">No user authentication required</string>
+    <string name="card_create_key_opt_auth_time">User needs to be authenticated during the last 15 seconds</string>
+    <string name="card_create_key_opt_auth_fingerprint">User needs to authenticate every time via fingerprint</string>
+    <string name="card_create_key_success">✓ Key successfully created!</string>
+    <string name="card_create_key_action">Create key</string>
+
+    <string name="card_keystore_title">2. Encrypt a message</string>
+    <string name="card_keystore_description">Enter a text you would like to encrypt / decrypt:</string>
+    <string name="card_keystore_action_encrypt">Encrypt</string>
+    <string name="card_keystore_action_decrypt">Decrypt</string>
+
+    <string name="confirm_credential_title">Hey there!</string>
+    <string name="confirm_credential_msg">Please authenticate in order to access the securely stored key material. Thanks!</string>
+
+    <string name="fingerprint_dialog_title">Authenticate</string>
+    <string name="fingerprint_auth_failed">Authentication failed.</string>
+    <string name="fingerprint_auth_success">Authentication successful!</string>
+    <string name="fingerprint_missing_hardware">Bad news:\nYour device does not have a supported fingerprint reader :-(</string>
+    <string name="fingerprint_not_enrolled">Whoa - not so fast! You haven\'t enrolled any fingerprints yet.\nGo to \'Settings -> Security -> Nexus Imprint\' to enroll at least one finger</string>
+</resources>
